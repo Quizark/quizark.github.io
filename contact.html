@@ -20,14 +20,23 @@
         <a href="contact.html">Kontakt</a>
     </div>
     <div class="contactheader">
-        <p class="contacttext">Email: <span id="email">naszachada@gmail.com</span></p>
+        <p class="contacttext">Email: <span id="email" onclick="copyText()">naszachada@gmail.com</span></p>
     </div>
   </header>
   <main>
-    <h1>Website in progress! Contact - naszachada@gmail.com</h1>
+    <div id="contact">
+      <ul>
+        <li>Discord: <a href="https://discord.gg/nVvSQSedt5">Melina Snipera</a></li>
+        <li>Email:<span id="email" onclick="copyText()">naszachada@gmail.com</span></li>
+        <li>Steam: <a href="https://steamcommunity.com/profiles/76561198060235708/">Quizarku</a></li>
+        <li>GitHub: <a href="https://github.com/Quizark">Quizark</a></li>
+      </ul>
+    </div>
   </main>
   <footer>
-    <div id="created"><p>© 2024 Quizark | Designed by Stanisław Mendel</p></div>
+    <div id="created">
+      © 2024 Quizark | Designed by <a href="https://quizark.github.io/" style="text-decoration: none;">Stanisław Mendel</a>
+    </div>
   </footer>
   <script src="script.js"></script>
 </body>
