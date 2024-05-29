@@ -145,3 +145,51 @@ main #contact ul {
     padding: 0; 
     margin: 0; 
 }
+.project_boxes {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    padding: 20px;
+    justify-content: center;
+}
+
+.small-space{
+    height: 100px;
+    width: 100%;
+}
+.middle-space{
+    height: 200px;
+    width: 100%;
+}
+.big-space{
+    height: 300px;
+    width: 100%;
+}
+.box {
+    position: relative;
+    width: 300px;
+    height: 250px;
+    border: dotted black 2px;
+    border-radius: 5%;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    font-size: 24px;
+    font-weight: bold;
+    transition: transform 0.3s;
+}
+
+.box:hover {
+    transform: scale(1.05);
+}
+
+.box_text {
+    background: rgba(0, 0, 0, 0.5);
+    padding: 10px;
+    border-radius: 5px;
+}
