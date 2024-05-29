@@ -114,8 +114,6 @@ main .aboutText{
     align-items: left;
     justify-content: center;
     display: flex;
-
-
 }
 #email:hover{
 cursor: pointer;
@@ -192,4 +190,121 @@ main #contact ul {
     background: rgba(0, 0, 0, 0.5);
     padding: 10px;
     border-radius: 5px;
+}
+
+
+@media (max-width: 890px) {
+    .contactheader, .links, .main .about, .main .aboutText, .main #contact a, .info {
+        font-size: 20px;
+    }
+    .contactheader{
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+        display: flex;
+    }
+
+    .links {
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .links a {
+        margin-left: 0;
+        margin-bottom: 10px;
+    }
+
+    header {
+        flex-direction: column;
+        height: auto;
+    }
+
+    #logo img {
+        height: 100px;
+        width: 100px;
+    }
+
+    .main .about, .main .aboutText {
+        flex-direction: column;
+        width: 90%;
+        margin-left: 5%;
+    }
+
+    main #contact, #contact li a  {
+        height: auto;
+        font-size: 40px;
+    }
+
+    .box {
+        width: 100%;
+        height: 200px;
+    }
+
+    .project_boxes {
+        flex-direction: column;
+        gap: 20px;
+    }
+    main .aboutText{
+        margin-left: 15%;
+        width: 70%;
+        height: 15%;
+    }
+}
+
+@media (max-width: 480px) {
+    .contactheader, .links, .main .about, .main .aboutText, .main #contact a, .info{
+        font-size: 15px;
+    }
+    .contactheader{
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+        display: flex;
+    }
+
+    .links {
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .links a {
+        margin-left: 0;
+        margin-bottom: 5px;
+    }
+
+    header {
+        flex-direction: column;
+        height: auto;
+    }
+
+    #logo img {
+        height: 80px;
+        width: 80px;
+    }
+
+    .main .about, .main .aboutText {
+        flex-direction: column;
+        width: 100%;
+        margin-left: 0;
+    }
+
+    main #contact, #contact li a  {
+        height: auto;
+        font-size: 30px;
+    }
+
+    .box {
+        width: 100%;
+        height: 150px;
+    }
+
+    .project_boxes {
+        flex-direction: column;
+        gap: 15px;
+    }
+    main .aboutText{
+        margin-left: 15%;
+        width: 70%;
+        height: 15%;
+    }
 }
