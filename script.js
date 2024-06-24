@@ -24,3 +24,36 @@ function copyText() {
       console.error('Failed to copy text: ', err);
     });
   }
+
+  function handleIconClick1() {
+    const text = "https://quizark.github.io/images/afryka.png";
+    navigator.clipboard.writeText(text).then(() => {
+      alert("Copied the text: " + text);
+    }).catch(err => {
+      console.error('Failed to copy text: ', err);
+    });
+  }
+  function handleIconClick2() {
+    const text = "https://quizark.github.io/images/desert.png";
+    navigator.clipboard.writeText(text).then(() => {
+      alert("Copied the text: " + text);
+    }).catch(err => {
+      console.error('Failed to copy text: ', err);
+    });
+  }
+  function handleIconClick3() {
+    const text = "https://quizark.github.io/images/ice.png";
+    navigator.clipboard.writeText(text).then(() => {
+      alert("Copied the text: " + text);
+    }).catch(err => {
+      console.error('Failed to copy text: ', err);
+    });
+  }
+  function handleIconClick4() {
+    const text = "https://quizark.github.io/images/jungle.png";
+    navigator.clipboard.writeText(text).then(() => {
+      alert("Copied the text: " + text);
+    }).catch(err => {
+      console.error('Failed to copy text: ', err);
+    });
+  }

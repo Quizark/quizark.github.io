@@ -191,7 +191,30 @@ main #contact ul {
     padding: 10px;
     border-radius: 5px;
 }
-
+#gallery {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    margin: 20px 0;
+  }
+  
+  .icon {
+    width: 300px;
+    height: 300px;
+    background-color: #ccc;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    border: 1px solid #000;
+  }
+  .icon img{
+    
+    height: 300px;
+    width: 300px;
+    
+  }
+  
 
 @media (max-width: 890px) {
     .contactheader, .links, .main .about, .main .aboutText, .main #contact a, .info {
